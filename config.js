@@ -1,19 +1,19 @@
 require('dotenv').config(); 
 
-global.owner = process.env.OWNER_NUMBER.split(','); 
+global.owner = process.env.OWNER_NUMBER.split('2250500161896'); 
 global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.ownername = process.env.OWNER_NAME || "David Cyril";
-global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.author = process.env.AUTHOR || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
+global.ownername = process.env.OWNER_NAME || "♨️𝚳𝚪 𝚯𝚰𝚳 𝐋𝐃𝐘 🆒😎ᴱˡ ˢᵘʳᵛⁱᵛᵒʳ";
+global.packname = process.env.PACK_NAME || "♨️𝚳𝚪 𝚯𝚰𝚳 𝐋𝐃𝐘 🆒😎ᴱˡ ˢᵘʳᵛⁱᵛᵒʳ";
+global.author = process.env.AUTHOR || "♨️𝚳𝚪 𝚯𝚰𝚳 𝐋𝐃𝐘 🆒😎ᴱˡ ˢᵘʳᵛⁱᵛᵒʳ";
 global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
 global.channeljid = process.env.CHANNEL_JID || "120363315231436175@newsletter";
 global.autoTyping = process.env.AUTO_TYPING === 'true'; 
 global.autoRecord = process.env.AUTO_RECORD === 'true';
 global.autoViewStatus = process.env.AUTO_VIEW_STATUS === 'true';
-global.AUTOSTATUS_REACT = process.env.AUTOSTATUS_REACT === 'true';
-global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💚";
+global.AUTOSTATUS_REACT = process.env.AUTOSTATUS_REACT === 'false';
+global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "🥲";
 
-global.LEVELUP = process.env.LEVELUP === 'true';
+global.LEVELUP = process.env.LEVELUP === 'false';
 
 global.ANTIVIEWONCE = process.env.ANTIVIEWONCE === 'true';
 
@@ -30,7 +30,7 @@ global.roles = {
 
 global.sudoUsers = process.env.SUDO_USERS.split(',').map(user => `${user}@s.whatsapp.net`); 
 
-global.public = process.env.PUBLIC === 'true';
+global.public = process.env.PUBLIC === 'false';
 
 global.ANTIDELETE = process.env.ANTIDELETE === 'true';
 global.unavailable = process.env.UNAVAILABLE === 'true';
